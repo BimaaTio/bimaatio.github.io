@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+* {
+
+  font-family: 'Rubik', sans-serif;
+
+  overflow-x: hidden;
+
+}
+
+.btn-primary,
+
+.btn-primary.disabled {
+
+  box-shadow: 0 2px 6px #1C82AD;
+
+  background-color: #1C82AD;
+
+  border-color: #1C82AD;
+
+}
+
+.btn-primary:focus,
+
+.btn-primary.disabled:focus {
+
+  background-color: #1C82AD !important;
+
+}
+
+.btn-primary:focus:active,
+
+.btn-primary.disabled:focus:active {
+
+  background-color: #1C82AD !important;
+
+}
+
+.btn-primary:active,
+
+.btn-primary:hover,
+
+.btn-primary.disabled:active,
+
+.btn-primary.disabled:hover {
+
+  background-color: #00337C !important;
+
+}
+
+.bg-biru {
+
+  opacity: 1;
+
+  background-color: #13005A !important;
+
+}
+
+.bg {
+
+  background: rgb(34, 193, 193);
+
+  background: linear-gradient(0deg, rgba(19, 0, 90, 0) 47%, rgba(19, 0, 90, 1) 100%);
+
+  background-size: cover;
+
+  background-repeat: no-repeat;
+
+}
+
+#about,
+
+#project,
+
+.projek {
+
+  overflow-y: hidden;
+
+  overflow-x: hidden;
+
+}
+
+#typed {
+
+  overflow: hidden;
+
+}
+
+.projek {
+
+  transition: all 0.2s ease;
+
+  cursor: pointer;
+
+}
+
+.projek:hover {
+
+  overflow-y: hidden;
+
+  overflow-x: hidden;
+
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+
+  transform: scale(1.1);
+
+}
